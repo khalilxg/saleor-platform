@@ -31,7 +31,7 @@ services:
   db:
     image: library/postgres:15-alpine
     ports:
-      - 5432:5432
+      - 5433:5432
     restart: unless-stopped
     networks:
       - saleor-backend-tier
